@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Phoenix Fitness</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        
+        <img src="img/phoenix-fitness-logo.png" alt="Logo del gimnasio" id = 'logo'>
+        <h2  id="phoenix-fitness-typo">
+          <span id="phoenix">PHOENIX</span><span> </span
+          ><span id="fitness">FITNESS</span>
+        </h2>
+
+        <h4 class = 'nav-menu'>Inicio</h4>
+        <h4 class = 'nav-menu'><a href='#intro'>Quiénes somos</a></h4>
+        <h4 class = 'nav-menu'><a href='#horarios'>Horarios</a></h4>
+        <h4 class = 'nav-menu'><a href='#registro' id ='register'>Registrate</a>/<a href='#logueo' id='login'>iniciá sesión</a></h4>
+
+      </div>
+    </header>
+
+    <section id="intro">
+        
+        <h1 class = 'title' >🔥Bienvenido/a a Phoenix Fitness🔥</h1>
+        
+        <h2 class = 'title' > Quiénes somos? </h2>
+        
+        <p id = 'intro-text'> "En nuestro gimnasio, nos enorgullece ser un lugar de transformación y bienestar para nuestra comunidad. Nuestro objetivo es proporcionar un entorno acogedor y motivador donde las personas de todas las edades y niveles de condición física puedan alcanzar sus metas de salud y acondicionamiento físico. A través de entrenadores altamente calificados, una amplia gama de equipos de vanguardia y una variedad de clases y programas personalizados, estamos comprometidos a ayudarte a alcanzar tu mejor versión física y mental. En nuestro gimnasio, no solo te ayudamos a ponerte en forma, sino que también te brindamos apoyo y motivación para que te sientas inspirado a mantener un estilo de vida saludable a largo plazo." </p>
+    <br>
+        <div id = 'landing-pics'>
+            <img class = 'intro-img'src="img/People at the gym.webp" alt="Gente en el gimnasio">
+            <img class = 'intro-img'src="img/People at the gym 2.jpg" alt="Gente en el gimnasio">
+        </div>
+
+    <br>
+
+        <div id= 'landing-pics'>
+            <img class = 'intro-img'src="img/People at the gym 3.jpg" alt="Gente en el gimnasio">
+        </div>
+    
+    </section>
+    <br>
+    <section id = 'horarios'>
+      <div>
+      <video id="background-video" autoplay loop muted poster="img/Gym pic.png">
+        <source src='img/Gym video.mp4' type="video/mp4">
+      </video>
+        <div id='text-on-video'>
+        <h2 class = 'title' > Horarios </h2>
+
+        <p class = 'availability'> Lunes a viernes de 08 a 22 hs </p>
+        <br>
+        <br>
+        <br>
+        <p class = 'availability'> Sábados, domingos y feriados de 09 a 13 hs </p> 
+      </div>
+    </div>
+    </section>
+
+
+    <section id = 'logueo'>
+        <h2 class = 'title' > Bienvenido/a de vuelta! </h2>
+    <div id='form'>
+        <form action="" method='post'>
+          <label for='mail'> Correo electrónico: </label>
+             <br><br>
+          <input type="email" id='mail' placeholder="mail@example.com">
+            <br>
+          <label for='password'> Contraseña: </label>
+             <br><br>                    
+          <input type='password' id='password' placeholder="pepito1234">
+           <a href="#" class='login-text'>Olvidaste tu contraseña?</a> 
+        
+           <button type='submit' class="button" id='login-button'> Iniciar sesión </button>
+           <br>
+           <button type='button' class = 'google-button'><img src="img/google.svg" alt="Logo de Google"> Continuar con Google </button>
+           <p class='login-text'>Aún no sos usuario? <a href='#registro'>Registrate y que arda tu cosmos!</a> 🐦🔥</p>
+        </form>
+    </div>
+    </section>
+    <br>
+
+    <section id = 'registro'>
+      <h2 class='title'> El cambio empieza acá</h2>
+      <div id='form'>
+        <form action="" method='post'>
+
+          <label for='name'>Nombre completo:</label>
+          <br><br>
+          <input type='text' id='name' placeholder="Juan Pérez">
+          <br>
+          <label for='mail'> Correo electrónico: </label>
+             <br><br>
+          <input type="email" id='mail' placeholder="mail@example.com">
+            <br>
+          <label for='password'> Contraseña: </label>
+             <br><br>                    
+          <input type='password' id='password' placeholder="pepito1234">
+          <label> Fecha de nacimiento </label> 
+          <br>
+          
+        <div id="birthdate">
+          <select name="Day"> 
+            <option value="día">Día</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>31</option>  
+          </select>
+          
+          <select name="Month">
+          <option value="mes">Mes</option>
+          <option value="enero">Enero</option>
+          <option value="febrero">Febrero</option>
+          <option value="marzo">Marzo</option>
+          <option value="abril">Abril</option>
+          <option value="mayo">Mayo</option>
+          <option value="junio">Junio</option>
+          <option value="julio">Julio</option>
+          <option value="agosto">Agosto</option>
+          <option value="septiembre">Septiembre</option>
+          <option value="octubre">Octubre</option>
+          <option value="noviembre">Noviembre</option>
+          <option value="diciembre">Diciembre</option>  
+          </select>
+          
+          <select name="Year"> 
+          <option value="año">Año</option>
+          <option value="">2023</option>
+          <option value="">2022</option>
+          <option value="">2021</option>
+          <option value="">2020</option>
+          <option value="">2019</option>
+          <option value="">2018</option>
+          <option value="">2017</option>
+          <option value="">2016</option>
+          <option value="">2015</option>
+          <option value="">2014</option>
+          <option value="">2013</option>
+          <option value="">2012</option>
+          <option value="">2011</option>
+          <option value="">2010</option>
+          <option value="">2009</option>
+          <option value="">2008</option>
+          <option value="">2007</option>
+          <option value="">2006</option>
+          <option value="">2005</option>
+          <option value="">2004</option>
+          <option value="">2003</option>
+          <option value="">2002</option>
+          <option value="">2001</option>
+          <option value="">2000</option>
+          <option value="">1999</option>
+          <option value="">1998</option>
+          <option value="">1997</option>
+          <option value="">1996</option>
+          <option value="">1995</option>
+          <option value="">1994</option>
+          <option value="">1993</option>
+          <option value="">1992</option>
+          <option value="">1991</option>
+          <option value="">1990</option>
+          <option value="">1989</option>
+          <option value="">1988</option>
+          <option value="">1987</option>
+          <option value="">1986</option>
+          <option value="">1985</option>
+          <option value="">1984</option>
+          <option value="">1983</option>
+          <option value="">1982</option>
+          <option value="">1981</option>
+          <option value="">1980</option>
+          <option value="">1979</option>
+          <option value="">1978</option>
+          <option value="">1977</option>
+          <option value="">1976</option>
+          <option value="">1975</option>
+          <option value="">1974</option>
+          <option value="">1973</option>
+          <option value="">1972</option>
+          <option value="">1971</option>
+          <option value="">1970</option>
+          <option value="">1969</option>
+          <option value="">1968</option>
+          <option value="">1967</option>
+          <option value="">1966</option>
+          <option value="">1965</option>
+          <option value="">1964</option>
+          <option value="">1963</option>
+          </select>
+        </div>
+        <br>
+        <label>Sexo</label>
+      <div id="gender">
+        
+        <input type="radio" class='gender-radio' id="hombre" name="sexo" value="hombre">
+        <label for="hombre">Hombre</label>
+        <input type="radio" class='gender-radio' id="mujer" name="sexo" value="mujer">
+        <label for="mujer">Mujer</label>
+        <input type="radio" class='gender-radio' id="nb" name="sexo" value="nb">
+        <label for="nb">No binario</label>
+      
+      </div>
+
+        <button type='submit' class='button' id='register-button'> Registrate </button>
+           <br>
+           <button type='button' class = 'google-button'><img src="img/google.svg" alt="Logo de Google"> Registrarte con Google </button>
+           <p class='login-text'>Ya sos un usuario existente?  <a href='#logueo'>Iniciá sesión!</a></p>
+        </form>
+    </div>
+    </section>
+
+    <footer>
+      <div class = 'footer'> 
+        <span class = 'legales'>LEGALES</span>
+        
+        <ul class="nav-list">
+          <li><a href="#">Política de privacidad</a></li>
+          <li><a href="#">Pautas de convivencia</a></li>
+          <li><a href="#">Términos y condiciones</a></li>
+          <li><a href="#">Defensa al consumidor</a></li>
+        </ul>
+      
+        <h2 class="footer-logo"><span class='orange-letter'>P</span><span class='yellow-letter'>F</span></h2>
+        <p class='rights-reserved'>Phoenix Group ® Copyright 2023</p>
+        <p class='rights-reserved'>Todos los derechos reservados</p>
+      
+      
+      
+      <a href="#"> <img class='footer-icon' src='img/FB footer icon.svg' alt="Icono de Facebook"></a> 
+       <a href="#"> <img class='footer-icon' src='img/IG footer icon.svg' alt="Icono de Instagram"></a>
+       <a href="#"> <img class='footer-icon' src='img/YT footer icon.svg' alt="Icono de YouTube"></a>
+      
+      </div>
+    </footer>
+
+  </body>
+</html>
