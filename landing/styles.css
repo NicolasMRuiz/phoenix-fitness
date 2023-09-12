@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@font-face {
+    font-family: 'Plastic Explosive';
+    src: url(public/plastic.TTF);
+    font-style: normal;
+    font-weight: normal;
+  }
 
 * {
     box-sizing: border-box;
@@ -10,6 +16,7 @@
 
 :root{
     --orange:#FF4500;
+    --flaminorange:#FFA500;
     --yellow:#FFD700;
     --blackbg:#0b0201;
     --orangebg:#c33600;
@@ -40,6 +47,9 @@ body{
     width:  100%;
     height: 92px;
     background-color: var(--grey);
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
     /*position:fixed;*/
 }
 
@@ -99,11 +109,13 @@ a{
 
 .footer{
     width:  100%;
-    height: 120px;
+    height: 150px;
     background-color: var(--grey);
-    text-align: center;
-    position:absolute;
-    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    
 }
 
 .nav-list{
@@ -113,6 +125,10 @@ a{
     align-items: center;
     gap: 0.5em;
     list-style-type: none;
+}
+
+.nav-elements{
+    padding:10px;
 }
 
 .nav-list a{
@@ -126,14 +142,14 @@ a{
     font-family: 'Raleway';
     font-size:20px;
     font-weight:bolder;
-    color:var(--white)
+    color:var(--white);
 }
 .footer-logo{
     font-family: 'Bebas Neue';
     position: relative;
-    margin-right: 0;
     font-size: 64px;
 }
+
 .orange-letter{
 color:var(--orange);
 
@@ -153,19 +169,27 @@ color: var(--yellow);
 .footer-icon{
     width:50px;
     height:37px;
+    color: var(--white);
 }
 
 .gender-radio{
     height:30px;
     width:30px;
 }
+
+.footer-content{
+    padding:10px;
+}
+
+.social-icons{
+    padding:10px;
+}
+
 /* IDs */
 
 #phoenix-fitness-typo{
     font-family: 'Bebas Neue';
     display: inline;
-    position: relative;
-    margin-top:50%;
 }
 
 #phoenix{
@@ -278,8 +302,3 @@ color: var(--yellow);
 #logueo{
     margin-top:20%;
 }
-
-
-
-
-
